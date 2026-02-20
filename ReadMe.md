@@ -40,12 +40,9 @@ To set up a local development environment that mirrors the production site:
    
 2. **Configure Your Environment:**
 
-   Because the config.js file is hidden for security, you must create a local version:
-
+   Because the config.js file is hidden for security, you must create a local version.
    Create a new file named config.js in the main folder.
-
    Copy the structure from config.template.js into your new file.
-
    Replace the placeholders with your actual Supabase URL and Anon Key.
 
 3. **Database Connection:**
@@ -54,8 +51,6 @@ To set up a local development environment that mirrors the production site:
 
 4. **Launch the Site:**
 
-   To avoid browser security restrictions (CORS), run the site through a local server:
-
+   To avoid browser security restrictions (CORS), run the site through a local server.
    VS Code: Right-click index.html and select "Open with Live Server".
-
    Alternatively, use any local hosting tool of your choice.

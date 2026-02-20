@@ -16,7 +16,7 @@ Uses dynamic fetching to pull the latest news directly from a live database.
 - **Category Filtering:** A robust filtering system that re-renders the news grid based on categories (Local, Sports, etc.) without reloading the page.
 - **Relational Data:** News items are linked to categories and images, allowing for a scalable content structure.
 
-### 2. The "Rolling Ad" Engine (`promo.js`)
+### 2. The "Rolling Ad" Engine 
 One of the most complex parts of the project is the custom-built advertisement rotation system.
 - **Unique Pick Algorithm:** The engine ensures that when an ad rotates, it never picks the one currently on screen. It filters the available pool in real-time before selecting a replacement.
 - **Responsive Layouts:** The system detects if an ad slot is a horizontal banner or a sidebar square and fetches the appropriate aspect ratio from the database.

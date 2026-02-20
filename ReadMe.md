@@ -39,6 +39,7 @@ To set up a local development environment that mirrors the production site:
    git clone [https://github.com/PrajwalRBhat/Sirsi_Sambhrama.git](https://github.com/PrajwalRBhat/Sirsi_Sambhrama.git)
    
 2. **Configure Your Environment:**
+
    Because the config.js file is hidden for security, you must create a local version:
 
    Create a new file named config.js in the main folder.
@@ -48,9 +49,11 @@ To set up a local development environment that mirrors the production site:
    Replace the placeholders with your actual Supabase URL and Anon Key.
 
 3. **Database Connection:**
+
    Ensure your Supabase tables (News_Articles and Advertisements) are properly set up and populated with data to see the dynamic content.
 
 4. **Launch the Site:**
+
    To avoid browser security restrictions (CORS), run the site through a local server:
 
    VS Code: Right-click index.html and select "Open with Live Server".
